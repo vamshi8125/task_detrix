@@ -25,7 +25,7 @@ const CHeader = (props) => {
         <View style={{flex:1,alignItems:"flex-end",}}>
             {
                 props.showLogout &&
-                <TouchableOpacity onPress={() => props.navigation.navigate("SplashScreen")} style={{width:97,height:36,borderRadius:100,backgroundColor:"#202137",alignItems:"center",justifyContent:"center"}}>
+                <TouchableOpacity onPress={() => props.navigation.navigate("Profile")} style={{width:97,height:36,borderRadius:100,backgroundColor:"#202137",alignItems:"center",justifyContent:"center"}}>
                     <CText.LogoutText>{"Logout"}</CText.LogoutText>
                 </TouchableOpacity>
                 
